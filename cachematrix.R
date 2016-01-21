@@ -28,7 +28,7 @@ makeCacheMatrix <- function(z = matrix()) {
 
       # function to set matrix for local environment
       set <- function(y=matrix()) {
-            x <<- y
+            z <<- y
             m_cache <<- NULL
       }
 
